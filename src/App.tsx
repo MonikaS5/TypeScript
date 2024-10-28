@@ -4,6 +4,7 @@ import ProductList from "./components/ProductList";
 import FetchingJson from "./components/FetchingJson";
 import AsyncAwait from "./components/AsyncAwait";
 import CancelFetchReq from "./components/CancelFetchReq";
+import Loader from "./components/Loader";
 
 function App() {
   const [category, setCategory] = useState("");
@@ -24,6 +25,8 @@ function App() {
       <AsyncAwait />
       <hr />
       <CancelFetchReq />
+      <hr />
+      <Loader />
     </>
   );
 }
