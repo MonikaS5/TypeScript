@@ -3,6 +3,7 @@ import "./App.css";
 import ProductList from "./components/ProductList";
 import FetchingJson from "./components/FetchingJson";
 import AsyncAwait from "./components/AsyncAwait";
+import CancelFetchReq from "./components/CancelFetchReq";
 
 function App() {
   const [category, setCategory] = useState("");
@@ -21,6 +22,8 @@ function App() {
 
       <hr />
       <AsyncAwait />
+      <hr />
+      <CancelFetchReq />
     </>
   );
 }
