@@ -5,6 +5,7 @@ import FetchingJson from "./components/FetchingJson";
 import AsyncAwait from "./components/AsyncAwait";
 import CancelFetchReq from "./components/CancelFetchReq";
 import Loader from "./components/Loader";
+import DeleteData from "./components/DeleteData";
 
 function App() {
   const [category, setCategory] = useState("");
@@ -27,6 +28,8 @@ function App() {
       <CancelFetchReq />
       <hr />
       <Loader />
+      <hr />
+      <DeleteData />
     </>
   );
 }
